@@ -24,11 +24,11 @@ package activity;
      			while(k>0)
      			{
      			char high=sec[num_count-1];
-     			for(int s=0;s<frst.length;s++)
+     			for(int i=0;i<frst.length;s++)
      			{
-     				if(high==frst[s])
+     				if(high==frst[i])
      				{
-     					frst[s]='q';
+     					frst[i]='q';
      					
      				}
      				
@@ -45,11 +45,11 @@ package activity;
      			
      			
      			
-     			for(int y=0;y<num.length();y++)
+     			for(int n=num.length()-1;n>=0;n--)
      			{
-     				if(frst[y]!='q')
+     				if(frst[n]!='q')
      				{
-     				System.out.print(frst[y]);	
+     				System.out.print(frst[n]);	
      				}
      			}
      			
