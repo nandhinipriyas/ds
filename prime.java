@@ -29,6 +29,7 @@ public class jhk {
                 if(i % j == 0)
                 {
                     flag = 0;
+                   System.out.println("is not prime i:" +i)
                     break;
                 }
                
@@ -36,7 +37,7 @@ public class jhk {
                 {
                     flag = 1;
                 }
-                         }
+             }
          
             if(flag==1)
             {
@@ -45,21 +46,7 @@ public class jhk {
             	System.out.println("arr[k]="+arr[k]);
             	k++; 
             }
-           
+            System.out.println("is prime i:" +i)
             }
-             for(int p=0;p<k;p++)
-             {
-            	int t=arr[p];
-             
-            	
-            	while(t!=0)
-            	{
-            		if(t%10==check)
-            		{
-            			nOD++;
-            		}
-            		t=t/10;
-            	}
-             }
-             System.out.println(+nOD);
+            
 	}}
